@@ -31,10 +31,6 @@ public class InformationEvent {
 		if (!mainhand.getItem().equals(Items.STICK)) {
 			return true;
 		}
-		
-		if (!mainhand.getHoverName().getString().equals(ChatFormatting.BLUE + "The Information Stick")) {
-			return true;
-		}
 
 		String name = "Name: " + entity.getName().getString();
 		String entityName = "Entity" + name;
